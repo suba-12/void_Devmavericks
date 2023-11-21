@@ -2,3 +2,9 @@ First commit
 
 we are firstly , go with an Front end 
 so for that we are upload the Front-end pages with Node.js 
+
+
+second commits 
+
+we done the email verification for the voter's and send the encrypted id to the people and
+ then only they have to access the portal (webapp).
