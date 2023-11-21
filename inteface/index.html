@@ -1,0 +1,388 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>VoteGraud</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Font Awesome CSS ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .party-label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .party-label input {
+            margin-right: 10px;
+        }
+      
+        .symbol-icon {
+            font-size: 20px; 
+            margin-right:50px; 
+        }
+       
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav m-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service">Verification</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#voting">Voting</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#portfolio">Dashboard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#testimonial">Clients</a>
+                                    </li>
+
+                                </ul>
+                            </div> <!-- navbar collapse -->
+
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+
+        <div id="home" class="header-hero bg_cover d-lg-flex align-items-center"
+            style="background-image: url(assets/images/header-hero.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="header-hero-content">
+                            <h1 class="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">Empowering
+                                citizens through secure digital ballots</h1>
+                            <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Secure online
+                                voting made simple. Join VoteGaurd for a trustworthy and accessible democratic
+                                experience.</p>
+
+                        </div> <!-- header hero content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s"
+                data-wow-delay="1.1s">
+                <div class="image">
+                    <img src="assets/images/hero-image.png" alt="Hero Image">
+                </div>
+            </div> <!-- header hero image -->
+
+            <div class="header-shape">
+                <img src="assets/images/shape/header-shape.png" alt="shape">
+            </div>
+        </div> <!-- header hero -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== SERVICE PART START ======-->
+
+    <section id="service" class="service-area pt-90">
+        <div class="container">
+            <div class="service">
+                <div class="row no-gutters justify-content-center">
+
+                    <div class="col-lg-4 col-md-7">
+
+                    </div>
+
+                </div>
+            </div> <!-- row -->
+        </div> <!-- service -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== SERVICE PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+
+    <!--====== VOTING PART START ======-->
+    <section id="voting" class="about-area pt-110 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="voting-content wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <form action="/submit-vote" method="post">
+
+                            <div class="form-row">
+                                <div class="col-md-4">
+                                    <label for="voteId">Vote ID:</label>
+                                    <input type="text" class="form-control" id="voteId" name="voteId" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="phoneNumber">Phone Number:</label>
+                                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-4">
+                                    <label for="age">Age:</label>
+                                    <input type="number" class="form-control" id="age" name="age" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state">Address</label>
+                                    <input type="text" class="form-control" id="state" name="state" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state">Place</label>
+                                    <input type="text" class="form-control" id="state" name="state" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-4">
+                                    <label for="constituency">Constituency:</label>
+                                    <select class="form-control" id="constituency" name="constituency" required>
+                                        <option value="Mannadipet">Mannadipet</option>
+                                        <option value="Thirubuvanai">Thirubuvanai</option>
+                                        <option value="Ossudu">Ossudu</option>
+                                        <option value="Mangalam">Mangalam</option>
+                                        <option value="Villianur">Villianur</option>
+                                        <option value="Ozhukarai">Ozhukarai</option>
+                                        <option value="Kadirkamam">Kadirkamam</option>
+                                        <option value="IndiraNagar">Indira Nagar</option>
+                                        <option value="Thattanchavady">Thattanchavady</option>
+                                        <option value="KamarajNagar">Kamaraj Nagar</option>
+                                        <option value="Lawspet">Lawspet</option>
+                                        <option value="Kalapet">Kalapet</option>
+                                        <option value="Muthialpet">Muthialpet</option>
+                                        <option value="RajBhavan">Raj Bhavan</option>
+                                        <option value="Oupalam">Oupalam</option>
+                                        <option value="Orleampeth">Orleampeth</option>
+                                        <option value="Nellithope">Nellithope</option>
+                                        <option value="Mudaliarpet">Mudaliarpet</option>
+                                        <option value="Ariankuppam">Ariankuppam</option>
+                                        <option value="Manavely">Manavely</option>
+                                        <option value="Embalam">Embalam</option>
+                                        <option value="Nettapakkam">Nettapakkam</option>
+                                        <option value="Bahour">Bahour</option>
+                                        <option value="Nedungadu">Nedungadu</option>
+                                        <option value="Thirunallar">Thirunallar</option>
+                                        <option value="KaraikalNorth">Karaikal North</option>
+                                        <option value="KaraikalSouth">Karaikal South</option>
+                                        <option value="NeravyTRPattinam">Neravy T R Pattinam</option>
+                                        <option value="Mahe">Mahe</option>
+                                        <option value="Yanam">Yanam</option>
+                                        <input type="text" id="state" name="state" required>
+                                        <!-- Add your options here -->
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="district">District:</label>
+                                    <select class="form-control" id="constituency" name="constituency" required>
+                                    <option value="Mannadipet">Puducherry</option>
+                                    <option value="Thirubuvanai">Mahe</option>
+                                    <option value="Ossudu">Yanam</option>
+                                    <option value="Mangalam">Karaikal</option>
+                                    <input type="text" id="state" name="state" required>
+                                        <!-- Add your options here -->
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="state">State:</label>
+                                    <input type="text" class="form-control" id="state" name="state" required>
+                                </div>
+                            </div>
+
+                                <div class="col-md-4">
+                                    VOTE
+                                </div>
+
+                                <div class="form-row mt-3">
+                                    <div class="col-md-4">
+                                        <label>Parties</label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Symbols</label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Vote</label>
+                                    </div>
+                                </div>
+    
+                                <!-- Party Rows -->
+
+                                <div class="form-row">
+                                    <div class="col-md-4">
+                                        <div class="party-label" name="party">
+                                            All India N.R. Congress
+                                        </div>
+                                        <div class="party-label" name="party">
+                                            Bharatiya Janata Party
+                                        </div>
+                                        <div class="party-label" name="party">
+                                            Dravida Munnetra Kazhagam
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-4">
+                                        <div class="symbol-icon" role="img" aria-label="Flag">🚩</div>
+                                        <div class="symbol-icon" role="img" aria-label="Star">⭐</div>
+                                        <div class="symbol-icon" role="img" aria-label="Circle">⭕</div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="vote[]" value="party1">
+                                            <label class="form-check-label">NR</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="vote[]" value="party2">
+                                            <label class="form-check-label">BJP</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="vote[]" value="party2">
+                                            <label class="form-check-label">DMK</label>
+                                        </div>
+                                
+
+                            </div>
+
+                            
+
+                           
+
+                            <button type="submit" class="main-btn">Submit Vote</button>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== VOTING PART ENDS ======-->
+
+
+    <!--<section id="about" class="about-area pt-110 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6 class="welcome">WELCOME about</h6>
+                        <h3 class="title"><span>Know </span> More About.</h3>
+                    </div>
+                </div>
+            </div> --><!-- row -->
+    ->
+    </div> <!-- about content -->
+    </div>
+    </div> <!-- row -->
+    </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+
+
+
+    <section id="portfolio">
+        <div class="container">
+            portofiloio
+        </div> <!-- container -->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== Scroll It js ======-->
+    <script src="assets/js/scrollIt.min.js"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
