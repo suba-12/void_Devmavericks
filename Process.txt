@@ -1,10 +1,17 @@
-First commit 
+First commit:
 
-we are firstly , go with an Front end 
-so for that we are upload the Front-end pages with Node.js 
+For the first commit, we have done signup and login page using Node.JS
 
 
-second commits 
+Second commit:
 
-we done the email verification for the voter's and send the encrypted id to the people and
+For the second commit, we have done the email verification for the voter's and send the encrypted id to the people and
  then only they have to access the portal (webapp).
+
+Third commit:
+
+For the third commit, we have done the front end html page
+
+Fourth commit: 
+
+For the fourth commit, We are building chatbot so we added the working images
